@@ -1,0 +1,1072 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Letelier - Registration Form</title>
+    <style>
+        input[type="radio"]{
+            margin: 0 0 0 20px;
+        }
+        .main-form{
+            width: 1000px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1><center>The nav bar goes here</center></h1>
+    </nav>
+    
+    
+    <h1><center>Mayflower Lane - Rental Application</center></h1>
+    <form action="results.html" method="GET" class="main-form">
+        <br><br><p1><b>PLEASE TELL US ABOUT YOURSELF - Applicant</b></p1><br><br>
+        <!-- Start of each row -->
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="firstname">First name</label>
+                    <input type="text" name="firstname" id="firstname" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="lastname">Last name</label>
+                    <input type="text" name="lastname" id="lastname" class="form-control">
+                </div>
+            </div>
+        </div>
+        <!-- End of each row -->
+        <!-- Start of each row -->
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="homenumber">Home #</label>
+                    <input type="tel" name="homenumber" id="homenumber" class="form-control" placeholder="(012)-345-6789">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="phonenumber">Phone #</label>
+                    <input type="tel" name="phonenumber" id="phonenumber" class="form-control" placeholder="(012)-345-6789">
+                </div>
+            </div>
+        </div>
+        <!-- End of each row -->
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="Social">Social Security #</label>
+                    <input type="text" name="Social" id="Social" class="form-control" placeholder="123-45-6789">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="birthdate">Date of Birth</label>
+                    <input type="date" name="birthdate" id="birthdate" class="form-control">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-6">
+                <div class = "form-group">
+                    <label for="id">State ID #</label>
+                    <input type="text" name="id" id="id" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="idstate">In State</label>
+                    <input type="text" name="idstate" id="idstate" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="idexpire">Expires</label>
+                    <input type="text" name="idexpire" id="idexpire" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class ="col">
+                <label for="emailaddress">Email Address</label>
+                <input type="email" name="emailaddress" id="emailaddress" class="form-control">
+            </div>
+        </div>
+        
+        <p><center>----------------------</center></p>
+        
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="cofirstname">Co-Applicant<br>First name</label>
+                    <input type="text" name="cofirstname" id="cofirstname" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <br>
+                    <label for="colastname">Last name</label>
+                    <input type="text" name="colastname" id="colastname" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <br><br><p1><b>PLEASE GIVE RESIDENTIAL HISTORY (LAST 2 YEARS)</b></p1><br><br>
+        
+        <div class="row">
+            <div class="col-9">
+                <div class = "form-group">
+                    <label for="cur_address">Applicant Current Address</label>
+                    <input type="text" name="cur_address" id="cur_address" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="cur_apt">Apt #</label>
+                    <input type="text" name="cur_apt" id="cur_apt" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col-4">
+                <div class = "form-group">
+                    <label for="cur_city">City</label>
+                    <input type="text" name="cur_city" id="cur_city" class="form-control">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class = "form-group">
+                    <label for="cur_state">State</label>
+                    <input type="text" name="cur_state" id="cur_state" class="form-control">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class = "form-group">
+                    <label for="cur_zip">Zip</label>
+                    <input type="text" name="cur_zip" id="cur_zip" class="form-control">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class = "form-group">
+                    <label for="cur_move">Month/Yr Moved in</label>
+                    <input type="text" name="cur_move" id="cur_move" class="form-control" placeholder="00/0000">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="cur_landlord">Landlord or Owner</label>
+                    <input type="text" name="cur_landlord" id="cur_landlord" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="cur_phone">Phone #</label>
+                    <input type="tel" name="cur_phone" id="cur_phone" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="cur_rent">Monthly Rental Amount</label>
+                    <input type="text" name="cur_rent" id="cur_rent" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="cur_reason">Reason for Leaving</label>
+                    <input type="text" name="cur_reason" id="cur_reason" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <p><center>----------------------</center></p>
+        
+        
+        <div class="row">
+            <div class="col-9">
+                <div class = "form-group">
+                    <label for="pre_address">Applicant Previous Address</label>
+                    <input type="text" name="pre_address" id="pre_address" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="pre_apt">Apt #</label>
+                    <input type="text" name="pre_apt" id="pre_apt" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col-4">
+                <div class = "form-group">
+                    <label for="pre_city">City</label>
+                    <input type="text" name="pre_city" id="pre_city" class="form-control">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class = "form-group">
+                    <label for="pre_state">State</label>
+                    <input type="text" name="pre_state" id="pre_state" class="form-control">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class = "form-group">
+                    <label for="pre_zip">Zip</label>
+                    <input type="text" name="pre_zip" id="pre_zip" class="form-control">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class = "form-group">
+                    <label for="pre_move">Month/Yr Moved in</label>
+                    <input type="text" name="pre_move" id="pre_move" class="form-control" placeholder="00/0000">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="pre_landlord">Landlord or Owner</label>
+                    <input type="text" name="pre_landlord" id="pre_landlord" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="pre_phone">Phone #</label>
+                    <input type="tel" name="pre_phone" id="pre_phone" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="pre_rent">Monthly Rental Amount</label>
+                    <input type="text" name="pre_rent" id="pre_rent" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="pre_reason">Reason for Leaving</label>
+                    <input type="text" name="pre_reason" id="pre_reason" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        
+        <p><center>----------------------</center></p>
+        <br><br><p1><b>PLEASE ANSWER THE FOLLOWING</b></p1><br><br>
+        
+        <p><center>Please list the Full Name and Date of Birth for each Person Who Would be Occupying the Unit.</center></p>
+        <!--1-->
+        <div class="row">
+            <div class="col-6">
+                <div class = "form-group">
+                    <label for="name1">Name</label>
+                    <input type="text" name="name1" id="name1" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="dob1">DOB</label>
+                    <input type="text" name="dob1" id="dob1" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="relationship1">Relationship</label>
+                    <input type="text" name="relationship1" id="relationship1" class="form-control">
+                </div>
+            </div>
+        </div> 
+        <!--2-->
+        <div class="row">
+            <div class="col-6">
+                <div class = "form-group">
+                    <label for="name2">Name</label>
+                    <input type="text" name="name2" id="name2" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="dob2">DOB</label>
+                    <input type="text" name="dob2" id="dob2" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="relationship2">Relationship</label>
+                    <input type="text" name="relationship2" id="relationship2" class="form-control">
+                </div>
+            </div>
+        </div> 
+        <!--3-->
+        <div class="row">
+            <div class="col-6">
+                <div class = "form-group">
+                    <label for="name3">Name</label>
+                    <input type="text" name="name3" id="name3" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="dob3">DOB</label>
+                    <input type="text" name="dob3" id="dob3" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="relationship3">Relationship</label>
+                    <input type="text" name="relationship3" id="relationship3" class="form-control">
+                </div>
+            </div>
+        </div> 
+        <!--4-->
+        <div class="row">
+            <div class="col-6">
+                <div class = "form-group">
+                    <label for="name4">Name</label>
+                    <input type="text" name="name4" id="name4" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="dob4">DOB</label>
+                    <input type="text" name="dob4" id="dob4" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="relationship4">Relationship</label>
+                    <input type="text" name="relationship4" id="relationship4" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <!-- Radio Buttons-->
+        <div class="row">
+            <div class="col-6">
+                <p>Have you ever been evicted from a rental residence</p>
+            </div>
+            <div class="col-6">
+                <input type="radio" id="yes" name="eviction" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="eviction" value="no">
+                <label for="no">No</label>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-6">
+                <p>Is there anything you would like to explain that may come up on your background check?</p>
+            </div>
+            <div class="col-6">
+                <textarea class="form-control" name="background" id="background"></textarea>
+            </div>
+        </div>
+        
+        
+        
+        <br><br><p1><b>PLEASE PROVIDE YOUR EMPLOYMENT INFORMATION</b></p1><br><br>
+        
+        <div class="row">
+            <div class="col-6">
+                <p>Current Employment Status</p>
+            </div>
+            <div class="col-6">
+                <input type="radio" id="fulltime" name="employment" value="fulltime">
+                <label for="fulltime">Full Time</label>
+                <input type="radio" id="parttime" name="employment" value="parttime">
+                <label for="parttime">Part Time</label>
+                <input type="radio" id="student" name="employment" value="student">
+                <label for="student">Student</label>
+                <input type="radio" id="unemployed" name="employment" value="unemployed">
+                <label for="unemployed">Unemployed</label>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-8">
+                <label for="company1">Company Name</label>
+                <input type="text" name="company1" id="company1" class="form-control">
+            </div>
+            <div class="col-2">
+                <label for="salary1">Salary $</label>
+                <input type="text" name="salary1" id="salary1" class="form-control">
+            </div>
+            <div class="col-2">
+                <label for="per1">Per</label>
+                <input type="text" name="per1" id="per1" class="form-control">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="start1">Start Date</label>
+                    <input type="date" name="start1" id="start1" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="end1">End Date</label>
+                    <input type="date" name="end1" id="end1" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="pos1">Position</label>
+                    <input type="text" name="pos1" id="pos1" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="super1">Supervisor Name</label>
+                    <input type="text" name="super1" id="super1" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="superphone1">Phone</label>
+                    <input type="tel" name="superphone1" id="superphone1" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <p><center>----------------------</center></p>
+        
+        <div class="row">
+            <div class="col-8">
+                <label for="company2">Company Name</label>
+                <input type="text" name="company2" id="company2" class="form-control">
+            </div>
+            <div class="col-2">
+                <label for="salary2">Salary $</label>
+                <input type="text" name="salary2" id="salary2" class="form-control">
+            </div>
+            <div class="col-2">
+                <label for="per2">Per</label>
+                <input type="text" name="per2" id="per2" class="form-control">
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="start2">Start Date</label>
+                    <input type="date" name="start2" id="start2" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="end2">End Date</label>
+                    <input type="date" name="end2" id="end2" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="pos2">Position</label>
+                    <input type="text" name="pos2" id="pos2" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="super2">Supervisor Name</label>
+                    <input type="text" name="super2" id="super2" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="superphone2">Phone</label>
+                    <input type="tel" name="superphone2" id="superphone2" class="form-control">
+                </div>
+            </div>
+        </div>
+        
+        <p><center>----------------------</center></p>
+        <p>If you have other sources of income that you would like us to consider, please list income, source, and person (banker, employer, etc.) who we may contact for confirmation. You do not have to reveal alimony, child support, or spouse's annual income unless you want us to consider it in this application.</p>
+        <div class="row">
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="amount3">Amount $</label>
+                    <input type="text" name="amount3" id="amount3" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="per3">Per</label>
+                    <input type="text" name="per3" id="per3" class="form-control">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class = "form-group">
+                    <label for="source3">Source</label>
+                    <input type="text" name="source3" id="source3" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="super3">Contact Name</label>
+                    <input type="text" name="super3" id="super3" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="superphone3">Phone</label>
+                    <input type="tel" name="superphone3" id="superphone3" class="form-control">
+                </div>
+            </div>
+        </div>
+        
+        <br><br><p1><b>Personal Reference or Emergency Contact </b></p1><br><br>
+        <!-- 1 -->
+        <div class="row">
+            <div class="col-8">
+                <div class = "form-group">
+                    <label for="prname1">1) Name</label>
+                    <input type="text" name="prname1" id="prname1" class="form-control">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class = "form-group">
+                    <label for="prrelationship1">Relationship</label>
+                    <input type="text" name="prrelationship1" id="prrelationship1" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col-7">
+                <div class = "form-group">
+                    <label for="praddress1">Address</label>
+                    <input type="text" name="praddress1" id="praddress1" class="form-control">
+                </div>
+            </div>
+            <div class="col-5">
+                <div class = "form-group">
+                    <label for="prphone1">Phone</label>
+                    <input type="tel" name="prphone1" id="prphone1" class="form-control">
+                </div>
+            </div>
+        </div> 
+        <!-- 2 -->
+        <div class="row">
+            <div class="col-8">
+                <div class = "form-group">
+                    <label for="prname2">2) Name</label>
+                    <input type="text" name="prname2" id="prname2" class="form-control">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class = "form-group">
+                    <label for="prrelationship2">Relationship</label>
+                    <input type="text" name="prrelationship2" id="prrelationship2" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col-7">
+                <div class = "form-group">
+                    <label for="praddress2">Address</label>
+                    <input type="text" name="praddress2" id="praddress2" class="form-control">
+                </div>
+            </div>
+            <div class="col-5">
+                <div class = "form-group">
+                    <label for="prphone2">Phone</label>
+                    <input type="tel" name="prphone2" id="prphone2" class="form-control">
+                </div>
+            </div>
+        </div> 
+        <!-- 3 -->
+        <div class="row">
+            <div class="col-8">
+                <div class = "form-group">
+                    <label for="prname3">3) Name</label>
+                    <input type="text" name="prname3" id="prname3" class="form-control">
+                </div>
+            </div>
+            <div class="col-4">
+                <div class = "form-group">
+                    <label for="prrelationship3">Relationship</label>
+                    <input type="text" name="prrelationship3" id="prrelationship3" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col-7">
+                <div class = "form-group">
+                    <label for="praddress3">Address</label>
+                    <input type="text" name="praddress3" id="praddress3" class="form-control">
+                </div>
+            </div>
+            <div class="col-5">
+                <div class = "form-group">
+                    <label for="prphone3">Phone</label>
+                    <input type="tel" name="prphone3" id="prphone3" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <br><br><p1><b>ADDITIONAL INFORMATION</b></p1><br><br>
+        <p1>Vehicle Information</p1><br>
+        <!-- 1 -->
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="model1">1) Make / Model</label>
+                    <input type="text" name="model1" id="model1" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="year1">Year</label>
+                    <input type="text" name="year1" id="year1" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="license1">License Plate State</label>
+                    <input type="text" name="license1" id="license1" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <!-- 2 -->
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="model2">2) Make / Model</label>
+                    <input type="text" name="model2" id="model2" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="year2">Year</label>
+                    <input type="text" name="year2" id="year2" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="license2">License Plate State</label>
+                    <input type="text" name="license2" id="license2" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <!-- 3 -->
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="model3">3) Make / Model</label>
+                    <input type="text" name="model3" id="model3" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="year3">Year</label>
+                    <input type="text" name="year3" id="year3" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="license3">License Plate State</label>
+                    <input type="text" name="license3" id="license3" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col-7">
+                <p><b>Where may we reach you to discuss this application?</b></p>
+            </div>
+            <div class="col-5">
+                <input type="tel" name="contactnum" id="contactnum" class="form-control" placeholder="(123)-456-7890">
+            </div>
+        </div>
+        <br>
+        <!-- This is where the 2 signatures go-->
+        <div class="row">
+            <div class="col">
+                
+                <label>Applicant Signature</label>
+                <input type="text">
+            </div>
+            <div class="col">
+                <label>Co-Applicant Signature</label>
+                <input type="text">
+            </div>
+        </div>
+        
+        
+        
+        <!-- Start of Co-Applicant form-->
+        <br><br><p1><b>PLEASE TELL US ABOUT YOURSELF - Co-Applicant</b></p1><br><br>
+        <!-- Start of each row -->
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="firstname">Co-Applicant<br>First name</label>
+                    <input type="text" name="firstname" id="cofirstname" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <br>
+                    <label for="lastname">Last name</label>
+                    <input type="text" name="lastname" id="colastname" class="form-control">
+                </div>
+            </div>
+        </div>
+        <!-- End of each row -->
+        <!-- Start of each row -->
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="homenumber">Home #</label>
+                    <input type="tel" name="homenumber" id="cohomenumber" class="form-control" placeholder="(012)-345-6789">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="phonenumber">Phone #</label>
+                    <input type="tel" name="phonenumber" id="cophonenumber" class="form-control" placeholder="(012)-345-6789">
+                </div>
+            </div>
+        </div>
+        <!-- End of each row -->
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="Social">Social Security #</label>
+                    <input type="text" name="Social" id="cosocial" class="form-control" placeholder="123-45-6789">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="birthdate">Date of Birth</label>
+                    <input type="date" name="birthdate" id="cobirthdate" class="form-control">
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-6">
+                <div class = "form-group">
+                    <label for="id">State ID #</label>
+                    <input type="text" name="id" id="coid" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="idstate">In State</label>
+                    <input type="text" name="idstate" id="coidstate" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="idexpire">Expires</label>
+                    <input type="text" name="idexpire" id="coidexpire" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class ="col">
+                <label for="emailaddress">Email Address</label>
+                <input type="email" name="emailaddress" id="coemailaddress" class="form-control">
+            </div>
+        </div>
+        
+        <p><center>----------------------</center></p>
+        
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="cofirstname">Applicant<br>First name</label>
+                    <input type="text" name="cofirstname" id="cocofirstname" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <br>
+                    <label for="colastname">Last name</label>
+                    <input type="text" name="colastname" id="cocolastname" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        
+        
+        <!-- Radio Buttons-->
+        <div class="row">
+            <div class="col-6">
+                <p>Have you ever been evicted from a rental residence</p>
+            </div>
+            <div class="col-6">
+                <input type="radio" id="coyes" name="eviction" value="yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="cono" name="eviction" value="no">
+                <label for="no">No</label>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-6">
+                <p>Is there anything you would like to explain that may come up on your background check?</p>
+            </div>
+            <div class="col-6">
+                <textarea class="form-control" name="background" id="cobackground"></textarea>
+            </div>
+        </div>
+        
+        
+        <br><br><p1><b>PLEASE PROVIDE YOUR EMPLOYMENT INFORMATION</b></p1><br><br>
+        
+        <div class="row">
+            <div class="col-6">
+                <p>Current Employment Status</p>
+            </div>
+            <div class="col-6">
+                <input type="radio" id="cofulltime" name="employment" value="fulltime">
+                <label for="fulltime">Full Time</label>
+                <input type="radio" id="coparttime" name="employment" value="parttime">
+                <label for="parttime">Part Time</label>
+                <input type="radio" id="costudent" name="employment" value="student">
+                <label for="student">Student</label>
+                <input type="radio" id="counemployed" name="employment" value="unemployed">
+                <label for="unemployed">Unemployed</label>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-8">
+                <label for="company1">Company Name</label>
+                <input type="text" name="company1" id="cocompany1" class="form-control">
+            </div>
+            <div class="col-2">
+                <label for="salary1">Salary $</label>
+                <input type="text" name="salary1" id="cosalary1" class="form-control">
+            </div>
+            <div class="col-2">
+                <label for="per1">Per</label>
+                <input type="text" name="per1" id="coper1" class="form-control">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="start1">Start Date</label>
+                    <input type="date" name="start1" id="costart1" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="end1">End Date</label>
+                    <input type="date" name="end1" id="coend1" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="pos1">Position</label>
+                    <input type="text" name="pos1" id="copos1" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="super1">Supervisor Name</label>
+                    <input type="text" name="super1" id="cosuper1" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="superphone1">Phone</label>
+                    <input type="tel" name="superphone1" id="cosuperphone1" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <p><center>----------------------</center></p>
+        
+        <div class="row">
+            <div class="col-8">
+                <label for="company2">Company Name</label>
+                <input type="text" name="company2" id="cocompany2" class="form-control">
+            </div>
+            <div class="col-2">
+                <label for="salary2">Salary $</label>
+                <input type="text" name="salary2" id="cosalary2" class="form-control">
+            </div>
+            <div class="col-2">
+                <label for="per2">Per</label>
+                <input type="text" name="per2" id="coper2" class="form-control">
+            </div>
+        </div>
+        
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="start2">Start Date</label>
+                    <input type="date" name="start2" id="costart2" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="end2">End Date</label>
+                    <input type="date" name="end2" id="coend2" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="pos2">Position</label>
+                    <input type="text" name="pos2" id="copos2" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="super2">Supervisor Name</label>
+                    <input type="text" name="super2" id="cosuper2" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="superphone2">Phone</label>
+                    <input type="tel" name="superphone2" id="cosuperphone2" class="form-control">
+                </div>
+            </div>
+        </div>
+        
+        <p><center>----------------------</center></p>
+        <p>If you have other sources of income that you would like us to consider, please list income, source, and person (banker, employer, etc.) who we may contact for confirmation. You do not have to reveal alimony, child support, or spouse's annual income unless you want us to consider it in this application.</p>
+        <div class="row">
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="amount3">Amount $</label>
+                    <input type="text" name="amount3" id="coamount3" class="form-control">
+                </div>
+            </div>
+            <div class="col-3">
+                <div class = "form-group">
+                    <label for="per3">Per</label>
+                    <input type="text" name="per3" id="coper3" class="form-control">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class = "form-group">
+                    <label for="source3">Source</label>
+                    <input type="text" name="source3" id="cosource3" class="form-control">
+                </div>
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="super3">Contact Name</label>
+                    <input type="text" name="super3" id="cosuper3" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="superphone3">Phone</label>
+                    <input type="tel" name="superphone3" id="cosuperphone3" class="form-control">
+                </div>
+            </div>
+        </div>
+        
+        <!-- This is where the 2 signatures go-->
+        <div class="row">
+            <div class="col">
+                
+                <label>Applicant Signature</label>
+                <input type="text">
+            </div>
+            <div class="col">
+                <label>Co-Applicant Signature</label>
+                <input type="text">
+            </div>
+        </div>
+        
+        <br><br><br>
+        <button type="submit">Submit</button>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- Template -->
+        <!-- Start of each row -->
+        <!--
+        <div class="row">
+            <div class="col">
+                <div class = "form-group">
+                    <label for="#">#</label>
+                    <input type="text" name="#" id="#" class="form-control">
+                </div>
+            </div>
+            <div class="col">
+                <div class = "form-group">
+                    <label for="#">#</label>
+                    <input type="text" name="#" id="#" class="form-control">
+                </div>
+            </div>
+        </div> 
+        -->
+        <!-- End of each row -->
+    </form>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
