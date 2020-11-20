@@ -1,62 +1,424 @@
 
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Complete Bootstrap 4 Website Layout</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<link href="style.css" rel="stylesheet">
-	<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
-</head>
-<body>
 
-<!-- Navigation -->
+  <!--  START: head  -->
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  Internet Search Information  -->
+    <title> Mayflower Apartments • LHI | Fort Pierce, FL</title>
+    <meta name="description" content="LHI is a Property Management and Home Improvement family-run company, based out of Port St. Lucie. We maintain the beautiful Mayflower Apartments, now available to rent; Apply Online today!">
+    <meta name="keywords" content="LHI, Mayflower, Apartments, Rental, Affordable, Port Saint Lucie, St., Letelier, Home, Improvements, Mayflower Apartments, Letelier Home Improvements, Application">
+
+    <!--  Favicon  -->
+    <link rel="icon" href="supporting/img/favicon.png">
+
+    <!--  Google Fonts  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Lato:400,300,700,900">
+
+    <!--  Main CSS File  -->
+    <link rel="stylesheet" href="supporting/css/style.css">
+
+    <!--  Vendor CSS Files  -->
+    <link href="supporting/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="supporting/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="supporting/vendor/icofont/icofont.min.css">
+    <link rel="stylesheet" href="supporting/vendor/venobox/venobox.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Main JS External -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  </head>
+  <!--  END: head  -->
+
+  <!--  START: body  -->
+  <body>
+
+    <!--  START: header -->
+    <header id="header" class="fixed-top">
+
+      <div class="container">
+
+        <div class="logo float-left">
+          <a href="#"><img src="supporting/img/LHI_Logo.png" alt="<Letelier Home Improvements>" class="img-fluid"></a>
+        </div>
+
+        <div class="underline">
+          <nav class="nav-menu float-right d-none d-lg-block">
+            <ul>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#amenities">Amenities</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li class="apply-button"><a class="cta-btn" href="application.php" target="_blank">Apply Online</a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+
+    </header>
+    <!--  END: header  -->
+
+    <!--  START: hero -->
+    <section id="hero">
+
+      <div class="hero-container">
+
+        <div class="text-box" style="border: 1px solid #CCCCCC;">
+          <h1>Welcome to Mayflower Apartments!</h1>
+          <h3>Beautiful rental units located in Fort Pierce, FL.</h3>
+          <h4>Rent today, and join our community.</h4>
+        </div>
+
+      </div>
+
+    </section>
+    <!--  END: hero -->
+
+    <!--  START: main -->
+    <main id="main">
+
+      <!--  START: about -->
+      <section id="about" class="about" style="border-top: 1px solid #CCCCCC;">
+
+        <div class="container">
+
+          <div class="section-title">
+            <h2>About Us</h2>
+            <hr>
+          </div>
+
+          <div class="row">
+
+            <div class="col-lg-6 order-1 order-lg-2">
+              <img src="supporting/img/cover.png" class="img-fluid" alt="<Street View of Mayflower Apartments>">
+            </div>
+
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1">
+              <h2>Who is LHI?</h2>
+              <p><b>Letelier Home Improvements</b> is a family-run company, founded in 1987. We specialize in both Property Management and Home Improvement; primarily working within the Port St. Lucie and Fort Pierce area. </p>
+              <p class="bio">For over 20 years we've been dedicated to providing exceptional customer service and affordable living to our tenants at the <b>Mayflower Apartments.</b></p>
+              <p><i>• The purpose of this site is to provide general information for any new applicants that are interested in renting with us. Reach out to us if you have any questions, via the "Contact Us" page.</i></p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+      <!--  END: about -->
+
+      <!--  START: gallery -->
+      <section id="gallery" class="gallery" style="border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; background-color: #e4e4e4;">
+        <div class="container">
+          <div class="section-title">
+            <h2>Gallery</h2>
+            <hr>
+          </div>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <img src="supporting/img/carousel/carousel-1.png" alt="<Mayflower: Kitchen #1>" style="width:100%;">
+            </div>
+
+            <div class="item">
+              <img src="supporting/img/carousel/carousel-2.png" alt="<Mayflower: Bedroom #1>" style="width:100%;">
+            </div>
+          
+            <div class="item">
+              <img src="supporting/img/carousel/carousel-3.png" alt="<Mayflower: Bedroom #2>" style="width:100%;">
+            </div>
+
+            <div class="item">
+              <img src="supporting/img/carousel/carousel-4.png" alt="<Mayflower: Bathroom #1>" style="width:100%;">
+            </div>
+
+            <div class="item">
+              <img src="supporting/img/carousel/carousel-5.png" alt="<Mayflower: Bedroom #3>" style="width:100%;">
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+              <!--  END: gallery -->
+      <!-- ======= Call To Action Section ======= -->
+      <section class="call-to-action">
+        <div class="container">
+
+          <div class="text-center">
+            <h3>Interested in Renting?</h3>
+            <br>
+            <p><b>Mayflower Apartments</b> are <u>now available</u>.</p>
+            <p><i>Click below to send an application.</i></p>
+            <a class="cta-btn" href="application.php" target="_blank">Apply Online</a>
+          </div>
+
+        </div>
+      </section><!-- End Call To Action Section -->
+
+          <!-- ======= Services Section ======= -->
+      <section id="amenities" class="amenities section-bg" style="border-top: 1px solid #CCCCCC;">
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Amenities</h2>
+            <hr>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 icon-box">
+              <div class="trisection">
+              <div class="icon"><i class="icofont-home"></i></div>
+              <h4 class="title" style="letter-spacing: 1px;">General Amenitites</h4>
+              <p class="description">
+                <ul style="margin-left: 10px; text-align: left;">
+                  <li><p style="margin-left: 10px;">Central Air Conditioning & Heat</p></li>
+                  <li><p style="margin-left: 10px;">Accessible Utility Closet</p></li>
+                  <li><p style="margin-left: 10px;">Washer & Dryer Connection <b>(*)</b></p></li>
+                  <li><p style="margin-left: 10px;">Backyard <b>(*)</b></p></li>
+                  <li><p style="margin-left: 10px;">Optional Electronic Rental Payments</p></li>
+                  <li><p style="margin-left: 10px;">Emergency Maintence 24/7 Availability</p></li>
+                </ul>
+                <p style="margin-left: 70px; text-align: left; font-size: 12px;"> <i><b>(*) </b>- Available for select units.</i></p>
+              </p>
+            </div>
+            </div>
+            <div class="col-lg-4 col-md-6 icon-box">
+              <div class="trisection">
+              <div class="icon"><i class="icofont-people"></i></div>
+              <h4 class="title" style="letter-spacing: 1px;">NEARBY FOR THE FAMILY</h4>
+              <p class="description">
+                <ul style="margin-left: 10px; text-align: left;">
+
+                  <li><p style="margin-left: 10px;">Healthcote Botanical Gardens<i style="font-size: 12px; color: grey;"><br>(1.5 miles away)</i></p></li>
+
+                  <li><p style="margin-left: 10px;">St. Lucie County Aquarium &<br>Smithsonian Marine Station<i style="font-size: 12px; color: grey;"><br>(3 miles away)</i></p></li>
+
+                  <li><p style="margin-left: 10px;">Savannas Recreation Area<i style="font-size: 12px; color: grey;"><br>(5.2 miles away)</i></p></li>
+
+                  <li><p style="margin-left: 10px;">Fort Pierce Inlet State Park<i style="font-size: 12px; color: grey;"><br>(5.2 miles away)</i></p></li>
+
+                  <li><p style="margin-left: 10px;">Oxbow Eco-Center<i style="font-size: 12px; color: grey;"><br>(6 miles away)</i></p></li>
+
+                </ul>
+              </p>
+            </div>
+          </div>
+            <div class="col-lg-4 col-md-6 icon-box">
+              <div class="trisection">
+              <div class="icon"><i class="icofont-shopping-cart"></i></div>
+              <h4 class="title" style="letter-spacing: 1px;">CONVENIENCE STORES</h4>
+              <p class="description">
+                <ul style="margin-left: 10px; text-align: left;">
+
+                  <li><p style="margin-left: 10px;">Supermarkets<i style="font-size: 12px; color: grey;"><br>(Publix, Aldi, etc.)</i></p></li>
+
+                  <li><p style="margin-left: 10px;">Shopping Centers</p></li>
+
+                  <li><p style="margin-left: 10px;">Restaurants & Coffee Shops</p></li>
+
+                  <li><p style="margin-left: 10px;">Banks & Pharmacies</p></li>
+
+                  <li><p style="margin-left: 10px;">Laundry Facilities</p></li>
+
+                  <li><p style="margin-left: 10px;">Gold Courses</p></li>
+
+                </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section><!-- End Services Section -->
+
+      <!-- ======= Frequently Asked Questions Section ======= -->
+      <section id="pricing" class="pricing section-bg" style="border-top: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC; background-color: #e4e4e4;">
+
+        <div class="container">
+
+          <div class="section-title">
+            <h2>Pricing</h2>
+            <hr>
+          </div>
+
+          <div class="row" style="padding: 0px 7% 0px 7%">
+              <div class="col-sm-6">
+                <p class="bio" style="font-size: 20px; padding: 20px;">New Rent Special</p>
+                <div class="exampletest" style="margin-left: 10px; font-weight: bolder; font-size: 20px;">We're offering new renters a special deal of $<u>950 a month</u>!
+                </div>
+                <br>
+                <p style="margin-left: 22px;">Monthly rent for our Apartments values at $1,200.<br>This special <b>saves you $750 on move in costs</b>.</p>
+                <p style="margin-left: 10px;"><i>Contact us today, because this deal will not last long!</i></p>
+                <hr>
+              </div>
+
+              <div class="col-sm-6">
+                <h4 style="margin: 30px 0px 20px 10px;"><b>Overview:</b></h4>
+
+                <p style="margin-bottom: 20px;"><i class="icofont-check-circled" style="margin: 10px 13px 10px 30px;"></i>Apartment is located on the <b>first floor</b>.</p>
+
+                <p style="margin-bottom: 20px;"><i class="icofont-check-circled" style="margin: 10px 13px 10px 30px;"></i>Unit has <b>2 Bedroom, 1 Bathroom</b>.</p>
+
+               <p style="margin-bottom: 20px;"><i class="icofont-check-circled" style="margin: 10px 13px 10px 30px;"></i>Condition is <b>clean</b>, and <b>freshly painted</b>.</p>
+
+               <p style="margin-bottom: 20px;"><i class="icofont-check-circled" style="margin: 10px 13px 10px 30px;"></i><b>Fort Pierce Utilities</b>.</p>
+
+               <p style="margin-bottom: 20px;"><i class="icofont-check-circled" style="margin: 10px 13px 10px 30px;"></i>We do not allow pets.</p>
+
+               <p style="margin-bottom: 20px;"><i class="icofont-check-circled" style="margin: 10px 13px 10px 30px;"></i><b>Full Name & SSN moves you in quickly</b>!</p>
+             </div>
+            </div>
+
+          </div>   
+      </section>
+      <!--  END: pricing -->
 
 
-<!--- Image Slider -->
+      <!--  START: contact -->
+      <section id="contact" class="contact section-bg" style="border-bottom: 1px solid #CCCCCC;">
 
+        <div class="container">
 
-<!--- Jumbotron -->
+          <div class="section-title">
+            <h2>Contact Us</h2>
+            <hr>
+          </div>
 
+          <!--  START: bio -->
+          <div class="row">
 
-<!--- Welcome Section -->
+            <div class="col-lg-4 col-md-6">
 
+              <div class="contact-about">
 
-<!--- Three Column Section -->
+                <img src="supporting/img/LHI_Icon_Large.png" alt="<LHI Icon>" class="img-fluid">
+                <div class="company-name">Letelier Home Improvements</div>
+                <p>Our approach to management is to uphold the value and integrity of our rental community. <u><b>We pride ourselves on building strong relationships with our renters</b></u> and measure our performance based on their satisfaction.</p>
+                <p style="font-size: 13px;"><i>If you're considering renting with us: just choose your preferred method of contact from the following information and say hello.</i></p>
+                <hr>
 
+              </div>
+            </div>
+            <!--  START: bio -->
 
-<!--- Two Column Section -->
+            <!--  START: information -->
+            <div class="col-lg-3 col-md-6">
+              <div class="connections">
+              <div class="info">
+                <h4><b>Reach out to us:</b></h4>
+                <div>
+                  <i class="icofont-google-map"></i>
+                  <p>503 Mayflower Ln, <br>Fort Pierce, FL 34950</p>
+                </div>
 
+                <div>
+                  <i class="icofont-envelope"></i>
+                  <p>contact@letelierhi.com</p>
+                </div>
 
-<!--- Fixed background -->
+                <div>
+                  <i class="icofont-phone"></i>
+                  <p>(561) 523-5209</p>
+                </div>
 
+                <div>
+                  <i class="icofont-clock-time"></i>
+                  MON - SAT <i class="fineprint">from</i> 9:00AM - 5:00PM EST<p><i class="fineprint">We provide 24/7 availability for emergency maintenence.</i></p>
+                </div>
 
-<!--- Emoji Section -->
+              </div>
+            </div>
+            </div>
+            <!--  END: information -->
 
-  
-<!--- Meet the team -->
+            <!--  START: form -->
+            <div class="col-lg-5 col-md-12">
+              <div class="connections">
+                <div class="email">
+                <h4><b>Have a question?</b></h4>
+                <p>We would love to hear from you!</p>
+              </div>
+                <a class="cta-btn" href="contactus.php">Click here to send us an Email</a>
+              
+            </div>
+            </div>
+            <!--  END: form -->
 
+          </div>
 
-<!--- Cards -->
+        </div>
 
+      </section>
+      <!--  END: contact -->
 
-<!--- Two Column Section -->
+      <!--  START: map -->
+      <section class="map">
 
+        <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJDd85srbx3ogR7k9EBWOVIYw&key=AIzaSyB73T1C_RfBnSCrCRZ_gmoyjWPhrkaw5fo" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
-<!--- Connect -->
+      </section>
+      <!--  END: map -->
 
+    </main>
+    <!--  END: main -->
 
-<!--- Footer -->
+    <!--  START: footer -->
+    <footer id="footer">
 
+      <div class="container">
 
+        <div class="copyright">
 
+          Copyright &copy; 2004 - 2020. All Rights Reserved.
+          <p><strong><span><a href="http://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?inquirytype=EntityName&directionType=Initial&searchNameOrder=LETELIERHOMEIMPROVEMENTS%20L040000365870&aggregateId=flal-l04000036587-2e0a8d05-6c26-4783-9688-7c564960375c&searchTerm=Letelier%2C%20LLC&listNameOrder=LETELIER%20L040000365890" target="_blank">Letelier Home Improvements, LLC</a></span></strong></p>
 
-</body>
+        </div>
+
+      </div>
+
+    </footer>
+    <!--  END: footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+    <script src="supporting/vendor/jquery/jquery.min.js"></script>
+    <script src="supporting/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="supporting/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="supporting/vendor/php-email-form/validate.js"></script>
+    <script src="supporting/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="supporting/vendor/venobox/venobox.min.js"></script>
+    <script src="supporting/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="supporting/js/main.js"></script>
+
+  </body>
+  <!--  END: body -->
+
 </html>
-
-
